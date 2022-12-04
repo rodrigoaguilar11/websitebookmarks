@@ -1,0 +1,35 @@
+.marker:hover {
+    background-color: rgb(136, 136, 136);
+}
+.marker {
+padding: 1em;
+border-radius: .7em;
+}
+body{
+    background-color: rgb(77, 77, 77)!important;
+}
+
+* {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.icon {
+    width: 5em;
+    display: block;
+    text-align: center;
+}
+abbr{
+    cursor: pointer!important;
+}
+
+.displayNone{
+display: none;
+}
+#list-tab{
+    --bs-list-group-color: #ffffff;
+    --bs-list-group-bg: rgb(136, 136, 136);
+}
+
